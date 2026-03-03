@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+/*Text Styling*/
+
+h1{
+			font-family: "Fjalla One";
+			font-size: 100px;
+			text-align: center;
+			color: white;
+			margin: 0;
+		}
+		
+		h2{
+			font-family: "Fjalla One";
+			font-size: 50px;
+			text-align: center;
+			color: white;
+			margin: 50px;
+		}
+		
+		p{
+			font-family: "Fjalla One";
+			text-align: center;
+			color: grey;
+		}
+
+	#sketches{
+		color: rgba(255,255,255,0.50);
+		text-decoration: line-through;
+	}
+		
+		body{
+    background-color: #000000;
+		}
+
+/*Image Styling*/
+		
+	 .audio-container {
+		  display: flex;
+		  justify-content: center;
+		  align-items: center; 
+	}
+		
+		.track{
+			margin: 50px;
+		}
+		
+		.centred-img{
+		display: block;
+		width: 180px;
+		margin: auto;
+		}
+		
+		.centred-img-small{
+		display: block;
+		width: 80px;
+		margin: auto;
+		}
+		
+		.header-text-img{
+			display: flex;
+			flex-direction: column;
+			padding: 0;
+			margin-bottom: 100px;
+		}
+		
+		.subhead-messages{
+			display: flex;
+			flex-direction: column;
+			margin: 100px;
+		}
+		
+		.subhead-messages p{
+			padding: 0;
+			margin: 5px;
+		}
+
+/*Footer*/
+		
+		footer{
+			display: flex;
+			flex-direction: column;
+			margin: 50px;
+			padding: 0;
+		}
+
+		.small-text{
+			font-size: 12px;
+		}
